@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "183991718878",
+    "project_id": "photo-library-app-c57a2",
+    "storage_bucket": "photo-library-app-c57a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:183991718878:android:02d3490f407fc16fad834f",
+        "android_client_info": {
+          "package_name": "com.example.bloc_fairebase_auth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "183991718878-uq3pqtjm4t6ev81il606f8i643ppf6er.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBucNNS34muZq8Ti_5sytDkLAcob3giwRA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "183991718878-uq3pqtjm4t6ev81il606f8i643ppf6er.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
