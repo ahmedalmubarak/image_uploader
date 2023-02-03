@@ -1,16 +1,12 @@
-# bloc_fairebase_auth
+## **Photo library**
+**features**
 
-A new Flutter project.
+ - using [flutter_bloc](https://bloclibrary.dev/) library as state management solution.
+ - firebase authentication using email and password authentication.
+ - save and upload photo to firebase storage.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**This app focuses on using bloc as a state management solution and authentication flow in firebase.**
+##
+**screenshots**
+##
+![enter image description here](https://github.com/ahmedalmubarak/library-photo/blob/main/screeshots/photo.gif)
