@@ -3,6 +3,7 @@ import 'package:bloc_fairebase_auth/utils/dialogs/show_auth_error.dart';
 import 'package:bloc_fairebase_auth/views/image_view/photo_gallery_view.dart';
 import 'package:bloc_fairebase_auth/views/register/register_view.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
@@ -25,8 +26,12 @@ class App extends StatelessWidget {
         localizationsDelegates: AppLocalizations.localizationsDelegates,
         title: 'Photo Library',
         theme: ThemeData(
-          primarySwatch: Colors.deepPurple,
-        ),
+            primarySwatch: Colors.deepPurple,
+            appBarTheme: const AppBarTheme(
+                systemOverlayStyle: SystemUiOverlayStyle(
+                    statusBarColor: Colors.white,
+                    statusBarBrightness: Brightness.light,
+                    statusBarIconBrightness: Brightness.dark))),
         home: BlocConsumer<AppBloc, AppState>(
           listener: (context, appState) {
             if (appState.isLoading) {

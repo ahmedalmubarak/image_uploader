@@ -1,5 +1,5 @@
 import 'package:bloc_fairebase_auth/bloc/app_bloc.dart';
-import 'package:bloc_fairebase_auth/views/components/main_popip_menu_button.dart';
+import 'package:bloc_fairebase_auth/views/components/main_popup_menu_button.dart';
 import 'package:bloc_fairebase_auth/views/image_view/storage_image_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
