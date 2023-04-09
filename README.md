@@ -1,4 +1,4 @@
-## **Photo library**
+## **image uploader app**
 **features**
 
  - using [flutter_bloc](https://bloclibrary.dev/) library as state management solution.
